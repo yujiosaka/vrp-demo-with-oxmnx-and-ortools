@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  lab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./lab:/home/lab
